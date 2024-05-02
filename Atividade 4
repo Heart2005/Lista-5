@@ -1,0 +1,17 @@
+Implemente uma função sorteio que receba o intervalo de valores inteiros início e fim como parâmetro
+e sorteie um número dentro do intervalo (considerando intervalo fechado [início, fim])
+
+import random
+
+def sorteio(inicio, fim):
+    return random.randint(inicio, fim)
+
+# Ler o intervalo de valores inteiros fornecido pelo usuário
+inicio = int(input("Digite o valor inicial do intervalo: "))
+fim = int(input("Digite o valor final do intervalo: "))
+
+# Chamar a função sorteio com o intervalo fornecido pelo usuário
+numero_sorteado = sorteio(inicio, fim)
+
+# Exibir o número sorteado
+print("Número sorteado dentro do intervalo [{}, {}]: {}".format(inicio, fim, numero_sorteado))
