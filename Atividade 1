@@ -1,0 +1,11 @@
+Implemente uma função cumprimentar que receba como parâmetro o nome de uma pessoa e escreva
+a mensagem “Olá, <nome_da_pessoa>!”
+
+def cumprimentar(nome_da_pessoa):
+    print("Olá, {}!".format(nome_da_pessoa))
+
+# Pedir ao usuário para fornecer o nome da pessoa
+nome = input("Digite o seu nome: ")
+
+# Chamar a função cumprimentar com o nome fornecido pelo usuário
+cumprimentar(nome)
