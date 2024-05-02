@@ -1,0 +1,15 @@
+Implemente uma função mediaUnisinos que receba como parâmetro as notas do Grau A e do Grau B e
+retorne o resultado do grau final.
+
+def mediaUnisinos(grau_a, grau_b):
+    return (grau_a + 2 * grau_b) / 3.0
+
+# Ler as notas do Grau A e do Grau B fornecidas pelo usuário
+grau_A = float(input("Digite a nota do Grau A: "))
+grau_B = float(input("Digite a nota do Grau B: "))
+
+# Calcular o resultado do grau final usando a função mediaUnisinos
+resultado_final = mediaUnisinos(grau_A, grau_B)
+
+# Exibir o resultado do grau final
+print("O resultado do grau final é:", resultado_final)
